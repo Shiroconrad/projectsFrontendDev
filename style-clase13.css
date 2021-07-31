@@ -1,0 +1,19 @@
+/*pseudo-classes*/
+p:first-child{
+    color: purple;
+}
+p:last-child{
+    color: darkgreen;
+}
+p:nth-child(2n){
+    color: cyan;
+}
+p:nth-child(3){color:deeppink;}
+/*pseudo-elementos*/
+p::first-letter{
+    color: greenyellow;
+    font-size: large;
+}
+main::first-line{
+    color: lightcoral;
+}
